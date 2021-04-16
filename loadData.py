@@ -1,5 +1,5 @@
 def loadData(N):
-	fo=open("hw2.txt","w")	
+	fo=open("list.txt","w")	
 	fo.write(str(N))
 	fo.write("\n")
 	for i in range(int(N)):
