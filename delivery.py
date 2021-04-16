@@ -1,6 +1,9 @@
 def delivery(who, distance):
 	fo=open("hw2.txt","r")	
 	N=int(fo.readline())
+	if N == 0:
+		print("empty document")
+		return
 	best=[]
 	inquiry=[]
 	for i in range(N):
